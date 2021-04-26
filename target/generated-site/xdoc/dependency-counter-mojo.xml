@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 http://maven.apache.org/xsd/xdoc-2.0.xsd">
+  <properties>
+    <title>opensource-license-analysis:dependency-counter</title>
+  </properties>
+  <body>
+    <section name="opensource-license-analysis:dependency-counter">
+      <p><strong>Full name</strong>:</p>
+      <p>fleur.de.peau:opensource-license-analysis-maven-plugin:1.0-SNAPSHOT:dependency-counter</p>
+      <p><strong>Description</strong>:</p>
+      <div>Counts the number of maven dependencies of a project. 
+<p>It can be filtered by scope.</p></div>
+      <p><strong>Attributes</strong>:</p>
+      <ul>
+        <li>Requires a Maven project to be executed.</li>
+        <li>Binds by default to the <a href="http://maven.apache.org/ref/current/maven-core/lifecycles.html">lifecycle phase</a>: <code>package</code>.</li>
+      </ul>
+      <subsection name="Optional Parameters">
+        <table border="0">
+          <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Since</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><code><a href="#scope">&lt;scope&gt;</a></code></td>
+            <td><code>String</code></td>
+            <td><code>-</code></td>
+            <td>Scope to filter the dependencies.<br/><strong>User property is</strong>: <code>scope</code>.<br/></td>
+          </tr>
+        </table>
+      </subsection>
+      <subsection name="Parameter Details">
+        <h4><strong><a name="scope">&lt;scope&gt;</a></strong></h4>
+        <div>Scope to filter the dependencies.</div>
+        <ul>
+          <li><strong>Type</strong>: <code>java.lang.String</code></li>
+          <li><strong>Required</strong>: <code>No</code></li>
+          <li><strong>User Property</strong>: <code>scope</code></li>
+        </ul>
+      </subsection>
+    </section>
+  </body>
+</document>
